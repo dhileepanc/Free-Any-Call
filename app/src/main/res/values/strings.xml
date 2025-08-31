@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FREE ANY CALL</string>
+    <string name="mandatory_field">Mandatory Field</string>
+    <string name="first_name">First Name</string>
+    <string name="first_name_hint">Enter first name</string>
+    <string name="last_name">Last Name\n</string>
+    <string name="last_name_hint">Enter last name</string>
+    <string name="email_label">Email ID</string>
+    <string name="email_hint">Enter Email ID</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Enter Password\n</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_number_hint">Enter Phone Number</string>
+    <string name="terms_and_conditions_des"><![CDATA[I have agree all %s and %s]]></string>
+    <string name="next">Next</string>
+    <string name="signin">Signin\n</string>
+    <string name="login_with_social">or via social media</string>
+    <string name="forgot_password">\nForgot password?</string>
+    <string name="make_a_call">Make a Call</string>
+</resources>

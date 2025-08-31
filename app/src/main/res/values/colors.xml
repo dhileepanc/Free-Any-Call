@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="colorPrimary">#DF2820</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#1AE73839</color>
+    <color name="activityBackground">#FFFFFF</color>
+
+    <color name="colorPrimaryText">#190303</color>
+    <color name="colorPrimaryTextNight">#190303</color>
+    <color name="colorSecondaryText">@color/colorPrimary</color>
+    <color name="colorAccentText">#555555</color>
+    <color name="colorGreyText">#B3190303</color>
+    <color name="colorBottomNavigation">#FFFFFF</color>
+    <color name="colorDivider">#1A292626</color>
+    <color name="colorBottomDialog">@color/colorWhite</color>
+    <color name="colorAddressBG">#FDEAEB</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGreen">#00A950</color>
+    <color name="colorLightGreen">#35DF06</color>
+    <color name="colorTransparent">#99000000</color>
+    <color name="colorYellow">#FFD151</color>
+    <color name="colorRed">#ffcc0000</color>
+    <color name="colorOrange">#FC9C0D</color>
+    <color name="colorGrey">#8A8A8A</color>
+    <color name="colorLightGrey">#F3F2F7</color>
+    <color name="colorTextGrey">#8A7D7D</color>
+    <color name="divider">#D4D4D4</color>
+    <color name="colorNightWhite">#FFFFFF</color>
+    <color name="colorChatSent">#DF2820</color>
+    <color name="colorChatReceive">#F3F2F7</color>
+    <color name="bg_search_grey">#F6F6F6</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="otperror">#FF3B30</color>
+    <color name="otperrorbox">#E73839</color>
+    <color name="otpsuccessbox">#2B9B2D</color>
+    <color name="confirmbutton1">#707070</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">@color/divider
+    </color>
+
+</resources>
