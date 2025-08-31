@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.freeanycall.app.databinding.ActivityMainBinding
+import com.freeanycall.app.ui.CallActivity
 import com.freeanycall.app.ui.LoginActivity
 import com.freeanycall.app.ui.SignupActivity
 import dagger.hilt.android.AndroidEntryPoint
@@ -20,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        startActivity(Intent(this, SignupActivity::class.java))
+        startActivity(Intent(this, CallActivity::class.java))
 
     }
 }

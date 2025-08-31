@@ -1,5 +1,6 @@
 package com.freeanycall.app.api
 
+import com.freeanycall.app.data.CallResponse
 import com.freeanycall.app.data.ProfileModel
 import retrofit2.Call
 import retrofit2.Response
@@ -14,5 +15,8 @@ interface ApiInterface {
 
     @POST("login")
     suspend fun login(@Body request: HashMap<String, String>): Response<ProfileModel>
+
+    @POST("call")
+    suspend fun makeCall(@Body request: HashMap<String, String>): Response<CallResponse>
 }
 
