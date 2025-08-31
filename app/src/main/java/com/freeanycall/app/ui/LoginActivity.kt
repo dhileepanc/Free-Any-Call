@@ -79,7 +79,9 @@ class LoginActivity : AppCompatActivity() {
                     Toast.makeText(this, "Signing up...", Toast.LENGTH_SHORT).show()
                 }
 
-                NetworkResult.Complete -> TODO()
+                NetworkResult.Complete -> {
+
+                }
                 is NetworkResult.UnAuthorized -> {
                     Toast.makeText(this, "", Toast.LENGTH_SHORT).show()
                 }
